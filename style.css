@@ -702,6 +702,12 @@ body .search .viewed .a {
   font-weight: bold;
   margin-top: 3rem;
 }
+@media (max-width: 768px) {
+  body .search .viewed .a {
+    margin-top: 1rem;
+    padding-bottom: 5rem;
+  }
+}
 body .search .viewed a {
   text-decoration: none;
   color: black;

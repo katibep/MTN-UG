@@ -620,6 +620,10 @@ body{
             color: black;
             font-weight: bold;
             margin-top: 3rem;
+            @media(max-width:768px){
+                margin-top: 1rem;
+                padding-bottom: 5rem;
+            }
         }
         a{
             text-decoration: none;
