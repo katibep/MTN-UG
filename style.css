@@ -632,6 +632,13 @@ body .search .help .ancs {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 3rem;
 }
+@media (max-width: 768px) {
+  body .search .help .ancs {
+    display: flex;
+    gap: 1rem;
+    padding-left: 2rem;
+  }
+}
 body .search .help .ancs a {
   text-decoration: none;
   color: black;
