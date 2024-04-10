@@ -50,7 +50,7 @@ body{
             top: 0;
             width: 100%;
             @media(max-width:768px){
-                width: 92.10%;
+                width: 92%;
                 margin-left: 0rem;
                 display: flex;
                 gap: 2rem;
@@ -234,8 +234,8 @@ body{
             display: flex;
             flex-direction: column;
             padding-top: 0rem;
-            margin-left: 2rem;
-            gap: 2rem;
+            margin-left: 7rem;
+            gap: 1rem;
         }
         .one{
             display: flex;
@@ -244,6 +244,9 @@ body{
             .ank{
                 text-decoration: none;
                 color: black;
+                @media(max-width:768px){
+                    font-size: 1.50rem;
+                }
             }
             .anky{
                 text-decoration: none;
@@ -279,6 +282,7 @@ body{
     @media(max-width:768px){
         margin-left: 1rem;
         margin-top: 0rem;
+        margin-right: 1rem;
     }
 .imys{
     display: flex;
@@ -475,6 +479,8 @@ body{
         margin-left: 0rem;
         margin-right: 1rem;
         margin-top: 0rem;
+        display: flex;
+        align-items: flex-end;
     }
     .explore{
       border-radius: 20px;
@@ -485,8 +491,9 @@ body{
       background-color: rgba(175, 172, 172, 0.61);
       @media(max-width:768px){
         margin-left: 1rem;
-        width: 40%;
+        width: 100%;
         padding: 1rem;
+        margin-right: 1rem;
       }
       .big{
         font-size: 2rem;

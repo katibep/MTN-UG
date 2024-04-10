@@ -60,7 +60,7 @@ body .start .bigdev {
 }
 @media (max-width: 768px) {
   body .start .bigdev {
-    width: 92.1%;
+    width: 92%;
     margin-left: 0rem;
     display: flex;
     gap: 2rem;
@@ -261,8 +261,8 @@ body .top .flag {
     display: flex;
     flex-direction: column;
     padding-top: 0rem;
-    margin-left: 2rem;
-    gap: 2rem;
+    margin-left: 7rem;
+    gap: 1rem;
   }
 }
 body .top .flag .one {
@@ -273,6 +273,11 @@ body .top .flag .one {
 body .top .flag .one .ank {
   text-decoration: none;
   color: black;
+}
+@media (max-width: 768px) {
+  body .top .flag .one .ank {
+    font-size: 1.5rem;
+  }
 }
 body .top .flag .one .anky {
   text-decoration: none;
@@ -311,6 +316,7 @@ body .next {
   body .next {
     margin-left: 1rem;
     margin-top: 0rem;
+    margin-right: 1rem;
   }
 }
 body .next .imys {
@@ -535,6 +541,8 @@ body .treatment {
     margin-left: 0rem;
     margin-right: 1rem;
     margin-top: 0rem;
+    display: flex;
+    align-items: flex-end;
   }
 }
 body .treatment .explore {
@@ -548,8 +556,9 @@ body .treatment .explore {
 @media (max-width: 768px) {
   body .treatment .explore {
     margin-left: 1rem;
-    width: 40%;
+    width: 100%;
     padding: 1rem;
+    margin-right: 1rem;
   }
 }
 body .treatment .explore .big {
