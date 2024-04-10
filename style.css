@@ -60,7 +60,7 @@ body .start .bigdev {
 }
 @media (max-width: 768px) {
   body .start .bigdev {
-    width: 92%;
+    width: 91.89%;
     margin-left: 0rem;
     display: flex;
     gap: 2rem;
