@@ -649,6 +649,11 @@ body .search .help .ancs .icon {
   border-left: 2px solid black;
   padding-left: 2rem;
 }
+@media (max-width: 768px) {
+  body .search .help .ancs .icon {
+    font-size: 1.5rem;
+  }
+}
 body .search .help .arrow {
   padding-bottom: 3rem;
 }
