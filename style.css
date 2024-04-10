@@ -637,6 +637,7 @@ body .search .help .ancs {
     display: flex;
     gap: 1rem;
     padding-left: 2rem;
+    padding: 1rem;
   }
 }
 body .search .help .ancs a {
@@ -651,7 +652,7 @@ body .search .help .ancs .icon {
 }
 @media (max-width: 768px) {
   body .search .help .ancs .icon {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 }
 body .search .help .arrow {

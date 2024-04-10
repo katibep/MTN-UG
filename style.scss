@@ -559,6 +559,7 @@ body{
                 display: flex;
                 gap: 1rem;
                 padding-left: 2rem;
+                padding: 1rem;
             }
             a{
                 text-decoration: none;
@@ -570,7 +571,7 @@ body{
                 border-left: 2px solid black;
                 padding-left: 2rem;
                 @media(max-width:768px){
-                    font-size: 1.50rem;
+                    font-size: 1.10rem;
                 }
             }
             
