@@ -259,10 +259,11 @@ body .top .flag {
 @media (max-width: 768px) {
   body .top .flag {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 0rem;
-    margin-left: 7rem;
-    gap: 1rem;
+    margin-left: 2rem;
+    gap: 2rem;
+    margin-top: 3rem;
   }
 }
 body .top .flag .one {
@@ -270,19 +271,41 @@ body .top .flag .one {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  body .top .flag .one img {
+    width: 40px;
+    margin-left: 1.17rem;
+  }
+}
+@media (max-width: 768px) {
+  body .top .flag .one {
+    display: flex;
+    justify-content: center;
+    gap: 0rem;
+    font-size: 0.2rem;
+  }
+}
 body .top .flag .one .ank {
   text-decoration: none;
   color: black;
 }
 @media (max-width: 768px) {
   body .top .flag .one .ank {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    padding-top: 2rem;
   }
 }
 body .top .flag .one .anky {
   text-decoration: none;
   color: black;
   margin-left: 1.1rem;
+}
+@media (max-width: 768px) {
+  body .top .flag .one .anky {
+    font-size: 1rem;
+    margin-right: 2rem;
+    margin-left: 1.3rem;
+  }
 }
 body .top .line {
   margin-top: 2rem;

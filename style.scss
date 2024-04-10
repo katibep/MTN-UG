@@ -232,26 +232,45 @@ body{
         padding-top: 2rem;
         @media(max-width:768px){
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
             padding-top: 0rem;
-            margin-left: 7rem;
-            gap: 1rem;
+            margin-left: 2rem;
+            gap: 2rem;
+            margin-top: 3rem;
         }
         .one{
             display: flex;
             flex-direction: column;
             justify-content: center;
+            img{
+                @media(max-width:768px){
+                    width: 40px;
+                    margin-left: 1.17rem;
+                }  
+            }
+            @media(max-width:768px){
+                display: flex;
+                justify-content:center ;
+                gap: 0rem;
+                font-size: .20rem;
+            }
             .ank{
                 text-decoration: none;
                 color: black;
                 @media(max-width:768px){
-                    font-size: 1.50rem;
+                    font-size: 1rem;
+                    padding-top: 2rem;
                 }
             }
             .anky{
                 text-decoration: none;
                 color: black;
                 margin-left: 1.10rem;
+                @media(max-width:768px){
+                    font-size: 1rem;
+                    margin-right: 2rem;
+                    margin-left: 1.3rem;
+                }
             }
         }
     }
