@@ -260,10 +260,9 @@ body .top .flag {
   body .top .flag {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 0rem;
-    margin-left: 2rem;
-    gap: 2rem;
-    margin-top: 3rem;
+    gap: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 body .top .flag .one {
@@ -273,7 +272,7 @@ body .top .flag .one {
 }
 @media (max-width: 768px) {
   body .top .flag .one img {
-    width: 40px;
+    width: 50px;
     margin-left: 1.17rem;
   }
 }
